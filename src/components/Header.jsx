@@ -1,18 +1,20 @@
-import { useState } from 'react';
+import { useState , useContext, createContext } from 'react';
 import { Link } from 'react-router-dom'
 import { FaShoppingBasket, FaBars, FaTimes } from "react-icons/fa";
-
+import {DataContext} from './context/context'
 
 function Header() {
 
-     const [showNav, setShowNav] = useState(false)
+     const [showNav, setShowNav] = useState(false);
+     const value = useContext(DataContext);
+     const [cart] =value.cart
      const toggleNav = () => {
           setShowNav(!showNav)
      }
 
      return (
           <header>
-               <nav className='flex justify-center items-center border-b shadow-lg w-11/12 p-5 md:px-5 m-auto rounded-lg max-md:justify-around '>
+               <nav className='flex justify-center items-center border-b shadow-lg w-11/12 p-5 md:px-5 m-auto rounded-lg max-md:justify-around sticky'>
                     <div className=" w-1/5 justify-center flex font-extrabold text-3xl text-green-900">
                          <Link to="/">ELVIN</Link>
                     </div>
@@ -32,9 +34,9 @@ function Header() {
                               <li><Link className='mx-3  max-md:p-5 hover:text-green-600' onClick={toggleNav} to="/">login</Link></li>
                          </ul>
                     }
-                    <div className="w-1/5 flex justify-center items-center max-md:justify-end ">
-                         <span className='ordinal'>3</span>
-                         <Link to="/">
+                    <div className="w-1/5 flex justify-center max-md:justify-end ">
+                         <Link to="/cart">
+                              <span className=' text-white bg-green-600 rounded-full text-center ordinal'>{cart.length}</span>
                               <FaShoppingBasket className='size-7 text-green-700' />
                          </Link>
                     </div>

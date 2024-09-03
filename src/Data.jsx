@@ -8,7 +8,7 @@ const Data =[
         "http://localhost:3000/images/3.jpg",
     ],
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fugit!",
-    "content": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد",
+    "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatibus voluptates? Repudiandae perferendis fuga ea facilis quos corporis error pariatur nulla incidunt quo. Nesciunt repudiandae, sint aliquid esse eaque ea!",
     "colors": ["red", "blue", "teal"],
     "price": 1800,
     "count": 1
@@ -22,7 +22,7 @@ const Data =[
 
     ],
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fugit!",
-    "content": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد",
+    "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatibus voluptates? Repudiandae perferendis fuga ea facilis quos corporis error pariatur nulla incidunt quo. Nesciunt repudiandae, sint aliquid esse eaque ea!",
     "colors": ["red", "blue", "teal"],
     "price": 900,
     "count": 1
@@ -36,7 +36,7 @@ const Data =[
         "http://localhost:3000/images/8.jpg",
     ],
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fugit!",
-    "content": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد",
+    "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatibus voluptates? Repudiandae perferendis fuga ea facilis quos corporis error pariatur nulla incidunt quo. Nesciunt repudiandae, sint aliquid esse eaque ea!",
     "colors": ["red", "blue", "teal"],
     "price": 1900,
     "count": 1
@@ -50,7 +50,7 @@ const Data =[
         "http://localhost:3000/images/11.jpg",
     ],
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fugit!",
-    "content": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد",
+    "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatibus voluptates? Repudiandae perferendis fuga ea facilis quos corporis error pariatur nulla incidunt quo. Nesciunt repudiandae, sint aliquid esse eaque ea!",
     "colors": ["red", "blue", "teal"],
     "price": 1650,
     "count": 1
@@ -58,3 +58,4 @@ const Data =[
 ]
 
 export default Data;
+
